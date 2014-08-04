@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<opml version="1.1">
+<head>
+<title>Portail des Equipes - Coupe de France de Robotique</title>
+<dateCreated>2014-06-28T17:23:10+02:00</dateCreated>
+<dateModified>2014-06-28T17:23:10+02:00</dateModified>
+</head>
+<body>
+<outline text="Cubot" htmlUrl="http://cubot.mecatronautes.fr" xmlUrl="http://cubot.mecatronautes.fr/?feed=rss2"/>
+<outline text="APBTeam" htmlUrl="http://apbteam.org" xmlUrl="http://apbteam.org/blog?format=rss"/>
+<outline text="OMyBot" htmlUrl="http://omybot.com" xmlUrl="http://omybot.com/blog/?feed=rss2"/>
+<outline text="Poivron" htmlUrl="http://www.poivron-robotique.fr" xmlUrl="http://www.poivron-robotique.fr/spip.php?page=backend-breves"/>
+<outline text="Bulbot" htmlUrl="http://bulbot.ulb.ac.be" xmlUrl="http://bulbot.ulb.ac.be/index.php?format=feed&amp;type=rss"/>
+<outline text="ESEO" htmlUrl="http://robot-eseo.fr" xmlUrl="http://robot-eseo.fr/feed/"/>
+<outline text="TDS-Team" htmlUrl="http://tdsteam.wordpress.com" xmlUrl="http://tdsteam.wordpress.com/feed/"/>
+<outline text="Geonobot" htmlUrl="http://geonobotblog.free.fr" xmlUrl="http://geonobotblog.free.fr/rss.php"/>
+<outline text="Valrobotik" htmlUrl="http://valrobotik.blogspot.com" xmlUrl="http://valrobotik.blogspot.com/feeds/posts/default"/>
+<outline text="Karibous" htmlUrl="http://karibous.blogspot.com" xmlUrl="http://feeds.feedburner.com/EquipelesKaribous"/>
+<outline text="Eceborg" htmlUrl="http://eceborg.fr" xmlUrl="http://feeds.feedburner.com/eceborg"/>
+<outline text="uART" htmlUrl="http://u.art.free.fr" xmlUrl="http://u.art.free.fr/rsspartage2.php"/>
+<outline text="OLEG" htmlUrl="http://oleg2014.blogspot.fr/" xmlUrl="http://oleg2014.blogspot.com/feeds/posts/default"/>
+<outline text="MLRobotic" htmlUrl="http://blog.mlrobotic.com" xmlUrl="http://blog.mlrobotic.com/feed/"/>
+<outline text="Wall-y" htmlUrl="http://wall-y.fr" xmlUrl="http://wall-y.fr/index.php?feed/atom"/>
+<outline text="IGrebot" htmlUrl="http://igrebot.fr" xmlUrl="http://igrebot.fr/index.php/fr/igreblog-fr?format=feed&amp;type=rss"/>
+<outline text="Robotronik" htmlUrl="http://robotronik.org" xmlUrl="http://robotronik.org/feed/rss2"/>
+<outline text="Reb'UT" htmlUrl="http://www.rebut-robot.fr" xmlUrl="http://www.rebut-robot.fr/?feed=rss2"/>
+<outline text="BH Team" htmlUrl="http://www.bhteam.org" xmlUrl="https://sites.google.com/a/bhteam.org/www/News/posts.xml"/>
+<outline text="WheelsTeam " htmlUrl="http://wheelsteam.wils.fr" xmlUrl="http://wheelsteam.wils.fr/flux_rss.xml"/>
+<outline text="Alpobot " htmlUrl="http://alpobot.free.fr" xmlUrl="http://alpobot.free.fr/index.php?format=feed&amp;type=rss"/>
+<outline text="CRLG" htmlUrl="http://crlg-asso.blogspot.com/" xmlUrl="http://crlg-asso.blogspot.com/feeds/posts/default"/>
+<outline text="7Robot" htmlUrl="http://www.bde.enseeiht.fr/clubs/robot" xmlUrl="http://www.bde.enseeiht.fr/clubs/robot/rss.xml"/>
+<outline text="EPF-Robotic" htmlUrl="http://epf-robotic.epf.fr" xmlUrl="http://epf-robotic.epf.fr/feed/"/>
+<outline text="INSA Toulouse" htmlUrl="http://etud.insa-toulouse.fr/~club_robot" xmlUrl="http://etud.insa-toulouse.fr/~club_robot/?q=rss.xml"/>
+<outline text="AIR Isep" htmlUrl="http://airisep.fr/wp" xmlUrl="http://airisep.fr/wp/feed/"/>
+<outline text="BrickStory" htmlUrl="http://brickstory-asso.blogspot.com/" xmlUrl="http://brickstory-asso.blogspot.com/feeds/posts/default"/>
+<outline text="TELECOM Bretagne" htmlUrl="http://em6.clubs.resel.fr" xmlUrl="http://em6.clubs.resel.fr/dotclear/index.php?feed/atom"/>
+<outline text="CTronic" htmlUrl="http://polytech.univ-bpclermont.fr/custronic/" xmlUrl="http://polytech.univ-bpclermont.fr/custronic/news.xml"/>
+<outline text="Club Robotique 31" htmlUrl="http://clubrobotique31.free.fr" xmlUrl="http://clubrobotique31.free.fr/?feed=rss2"/>
+<outline text="Robot-X" htmlUrl="http://www.robot-x.org" xmlUrl="http://www.robot-x.org/?q=rss.xml"/>
+<outline text="Sussus Invaders" htmlUrl="http://sussusinvaders.fr/" xmlUrl="http://pebdev.eu/www3/feed/rss"/>
+<outline text="Coffee-Machine" htmlUrl="http://www.coffee-machine.fr" xmlUrl="http://www.coffee-machine.fr/?feed=rss2"/>
+<outline text="PM-Robotix" htmlUrl="http://sites.google.com/site/pmrobotix/" xmlUrl="http://sites.google.com/site/pmrobotix/News/posts.xml"/>
+<outline text="CYBERNETIQUE en NORD" htmlUrl="http://cybernetiqueennord.blogspot.com/" xmlUrl="http://cybernetiqueennord.blogspot.com/feeds/posts/default"/>
+<outline text="ISTY2000" htmlUrl="http://isty2000.wordpress.com" xmlUrl="http://isty2000.wordpress.com/feed/"/>
+<outline text="CSARR" htmlUrl="http://csarr.fr/" xmlUrl="http://csarr.fr/?format=feed&amp;type=rss"/>
+<outline text="Pla-Sci" htmlUrl="http://www.planete-sciences.org/blogs/pla-sci" xmlUrl="http://www.planete-sciences.org/blogs/pla-sci/tag/coupe-de-france-de-robotique/feed/"/>
+<outline text="GobGob Technology" htmlUrl="http://gobgob-technology.fr/" xmlUrl="http://gobgob-technology.fr/feed.xml"/>
+</body>
+</opml>

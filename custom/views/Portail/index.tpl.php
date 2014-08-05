@@ -1,16 +1,35 @@
 <?php
 $limit = $PlanetConfig->getMaxDisplay();
 $count = 0;
-setlocale(LC_ALL, 'fr_FR');
+
 header('Content-type: text/html; charset=UTF-8');
-?>
-<div class="news">
+?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+
+    <title><?php echo $PlanetConfig->getName(); ?></title>
+    <?php include(dirname(__FILE__).'/../Portail_common/head.tpl.php'); ?>
+</head>
+
+<body>
+    <script type="text/javascript">
+    document.body.className += 'js';
+    </script>
+    <?php include_once(dirname(__FILE__).'/../Portail_common/sidebar.tpl.php'); ?>
+    <div id="page">
+        <?php include(dirname(__FILE__).'/top.tpl.php'); ?>
+        
+        <div id="content">
             <?php if (0 == count($items)) : ?>
                 <div class="article">
-                    <h3 class="article-title">
-                        Aucun article
-                    </h3>
-                    <p class="article-content">Pas de nouvelles pour l'instant, revenez plus tard</p>
+                    <h2 class="article-title">
+                        No article
+                    </h2>
+                    <p class="article-content">No news, good news.</p>
                 </div>
             <?php else : ?>
                 <?php foreach ($items as $item): ?>
@@ -19,9 +38,9 @@ header('Content-type: text/html; charset=UTF-8');
                     $host = preg_replace('/[^a-zA-Z]/i', '-', $arParsedUrl['host']);
                     ?>
                     <div class="article <?php echo $host; ?>">
-                        <h3 class="article-title">
-                            <a href="<?php echo $item->get_permalink(); ?>" title="Voir l'article d'origine"><?php echo $item->get_title(); ?></a>
-                        </h3>
+                        <h2 class="article-title">
+                            <a href="<?php echo $item->get_permalink(); ?>" title="Go to original place"><?php echo $item->get_title(); ?></a>
+                        </h2>
                         <p class="article-info">
                             
                             <?php echo ($item->get_author()? $item->get_author()->get_name() : 'Anonymous'); ?>,
@@ -45,4 +64,12 @@ header('Content-type: text/html; charset=UTF-8');
                     <?php if (++$count == $limit) { break; } ?>
                 <?php endforeach; ?>
             <?php endif; ?>
-</div>
+        </div>
+
+        
+        
+        <?php include(dirname(__FILE__).'/../Portail_common/footer.tpl.php'); ?>
+    </div>
+    <script src="app/js/mm.js" type="text/javascript"></script>
+</body>
+</html>

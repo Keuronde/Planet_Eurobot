@@ -29,10 +29,11 @@ header('Content-type: text/html; charset=UTF-8');
     <meta http-equiv="Content-Style-Type" content="text/css" />
 
     <title><?php echo $PlanetConfig->getName(); ?></title>
-    <?php include(dirname(__FILE__).'/head.tpl.php'); ?>
+    <?php include(dirname(__FILE__).'/../Portail_common/head.tpl.php'); ?>
 </head>
 
 <body>
+  <?php include_once(dirname(__FILE__).'/../Portail_common/sidebar.tpl.php'); ?>
     <div id="page">
         <?php include(dirname(__FILE__).'/top.tpl.php'); ?>
         
@@ -47,7 +48,7 @@ header('Content-type: text/html; charset=UTF-8');
             <?php endif; ?>
             <?php if (count($today)): ?>
             <div class="article">
-                <h2>Today</h2>
+                <h2>Aujourd'hui</h2>
                 <ul>
                 <?php foreach ($today as $item): ?>
                     <?php $feed = $item->get_feed(); ?>
@@ -62,7 +63,7 @@ header('Content-type: text/html; charset=UTF-8');
             
             <?php if (count($week)): ?>
             <div class="article">
-                <h2>This week</h2>
+                <h2>Cette semaine</h2>
                 <ul>
                 <?php foreach ($week as $item): ?>
                     <?php $feed = $item->get_feed(); ?>
@@ -77,7 +78,7 @@ header('Content-type: text/html; charset=UTF-8');
             
             <?php if (count($month)): ?>
             <div class="article">
-                <h2>This month</h2>
+                <h2>Ce mois-ci</h2>
                 <ul>
                 <?php foreach ($month as $item): ?>
                     <?php $feed = $item->get_feed(); ?>
@@ -92,7 +93,7 @@ header('Content-type: text/html; charset=UTF-8');
             
             <?php if (count($older)): ?>
             <div class="article">
-                <h2>Older items</h2>
+                <h2>Plus anciens...</h2>
                 <ul>
                 <?php foreach ($older as $item): ?>
                     <?php $feed = $item->get_feed(); ?>
@@ -105,8 +106,6 @@ header('Content-type: text/html; charset=UTF-8');
             </div>
             <?php endif; ?>
         </div>
-        
-        <?php include_once(dirname(__FILE__).'/sidebar.tpl.php'); ?>
         
         <?php include(dirname(__FILE__).'/footer.tpl.php'); ?>
     </div>

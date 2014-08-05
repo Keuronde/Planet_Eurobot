@@ -1,0 +1,280 @@
+body{
+	color: #303030;
+	background-color: #EEE;
+	font-family: sans-serif, Arial;
+	line-height: 1.8;
+	min-height:100%;
+	max-width:110em;
+	text-align:left;
+}
+
+
+ 
+/* Liens généraux */
+a:link{
+	text-decoration: none;
+	color: #83E;
+}
+a:visited{
+	color: #555;
+	text-decoration: underline;
+
+}
+a:hover{
+	color:#83E;
+	text-decoration: underline;
+}
+a:active{
+	color:#33F;
+	text-decoration: none;
+}
+
+/* Entete */
+
+#entete{
+    display:block;
+		text-align:center;
+		background-color:white;
+	}
+#entete h1{
+	text-shadow: 0.1em 0.1em #e6e6e6;
+	margin-bottom: 0px;
+}
+#entete p{
+	margin-top: 0px;
+}
+#entete, #entete:hover, #entete:active, #entete:visited{
+  text-decoration:none;
+  color:#333;
+}
+
+h3{
+	text-shadow: 0.1em 0.1em #EEF;
+	color:#123674;
+	font-weight: bold;
+	margin:1em 0;
+}
+ 
+ 
+/*Liens du sommaire*/
+#sommaire a:link{
+	text-decoration: none;
+	color: #EEF;
+}
+#sommaire a:visited{
+	text-decoration: none;
+	color: #EEF;
+ 
+}
+#sommaire a:hover{
+	color:#EEF;
+	text-decoration: none;
+}
+ 
+#sommaire a:active{
+	color: #123674;
+	text-decoration: none;
+}
+
+/* Barre laterale */
+#sidebar{
+  float:right;
+  width:15em;
+  margin-top:10em;
+  background-color: white;
+  padding: 0 1em;
+  box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
+}
+
+#sidebar ul {
+  list-style-type: none;
+  padding-left: 1em;
+}
+
+#CoupeDeFrance{
+  padding:1em;
+  border-bottom:1px solid #CCC;
+  text-align:center;
+}
+
+#Portail{
+  border-bottom:1px solid #CCC;
+  padding-bottom: 0.5em;
+}
+#Logos{
+  border-bottom:1px solid #CCC;
+  padding-bottom: 0.5em;
+  text-align:center;
+}
+
+
+ 
+/*
+@media screen and (min-width: 90em) {
+	#entete{
+		text-align:center;
+		background-color:white;
+	}
+	#page{
+		max-width:90em;
+		margin:auto;
+	}
+	#sommaire{
+		background-color:white;
+		vertical-align: top;
+		max-width: 15em;
+		float:left;
+	}
+	#corps{
+		background-color:white;
+		display: block;
+		max-width: 60em;
+		margin-left: auto;
+		margin-right: auto;
+		vertical-align: top;
+	}
+	#corps h2{
+		margin:0em;
+		padding:1em;
+	}
+ 
+}*/
+ 
+/*@media screen and (max-width: 90em) {*/
+/* Configuration de l'agencement de la page*/
+	#page{
+		background-color:white;
+		box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
+		max-width:70em;
+		min-height:80%;
+		margin-top:1.5em;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#sommaire{
+		vertical-align: top;
+		display:block;
+	}
+	#corps{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		vertical-align: top;
+		padding: 0 2em;
+	}
+/* Le sommaire s'allège et devient une barre supérieure.*/
+	#sommaire h2{
+		display:none;
+	}
+	#sommaire ul{
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0em 0px;
+		text-align:center;
+		background-color: rgb(58, 61, 65);
+	}
+	#sommaire ul li{
+		text-transform: uppercase;
+		font-weight: normal;
+		color: rgb(238, 238, 238);
+		list-style:none;
+		display:inline-block;
+		text-align:center;
+		padding:0.25em 1em;
+		margin:0 0.02em;
+	}
+	#sommaire ul li:hover{
+		background-color: #222;
+	}
+	#sommaire ul li.selected{
+		background-color: black;
+	}
+	#sommaire ul li ul{
+		display:none;
+	}
+ 
+ 
+
+
+/* Carrés pour la présentation des robots */
+.robot{
+  vertical-align:top;
+	display:inline-block;
+	width:15em;
+	background-color:#FAFAFA;
+  margin: 1em 2em;
+  padding: 1em;
+  text-align: center;
+  border: 1px solid #E6E6E6;
+  color: #303030;
+}
+
+.robot:hover{
+  border: 1px solid #CCC;
+  color:black;
+}
+.robot h4{
+  margin: 0.3em 0;
+  width: 100%;
+  font-weight:bold;
+  text-align: left;
+}
+.robot p{
+  text-align: left;
+}
+
+
+
+/* Présentation des news des équipes */
+
+.article h1, article h2, .article h3 {
+  font-size: 20px;
+  
+}
+div.article {
+  padding: 1em;
+  margin: 1em;
+  border: solid 1px #E6E6E6;
+  background-color: #FAFAFA;
+}
+
+div.article:hover{
+  border: 1px solid #CCC;
+  color:black;
+}
+
+iframe {
+  margin: 0px auto;
+  display: block;
+}
+div.article *{
+  max-width:100%;
+}
+
+/* bug dans les squelettes Spip */
+.autobr {
+  display: none;
+}
+
+/* Très petits écran */
+@media screen and (max-width: 26em) {
+  /* Le sommaire s'empile verticalement */
+	#sommaire ul {
+		text-align:left;
+	}
+	#sommaire ul li{
+		display:block;
+		text-align:left;
+	}
+	/* On supprime les marge latérales décoratives */
+	#corps{
+	  padding: 0 0.5em;
+	}
+	div.article{
+	  margin: 1em 0;
+	}
+}
+
+
+
+

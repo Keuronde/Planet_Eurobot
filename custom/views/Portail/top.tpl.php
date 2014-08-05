@@ -6,8 +6,8 @@
           <h2>Sommaire</h2>
           <ul>
             <li><a href="http://poivron-robotique.fr/-Portail-des-equipes-.html">Portail</a></li>
-            <li class="selected">Archives</li>
-            <li><a href="?type=Portail">Dernière nouvelles</a></li>
-            <li><a href="?type=APropos">À Propos</a></li>
+            <li><a href="?type=archive">Archives</a></li>
+            <li class="selected">Dernière nouvelles</li>
+            <li><a href="?type=APropos">À propos</a></li>
           </ul>
         </div>

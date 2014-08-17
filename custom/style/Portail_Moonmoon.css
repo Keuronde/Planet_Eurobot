@@ -251,6 +251,7 @@ iframe {
 }
 div.article *{
   max-width:100%;
+  height: auto;
 }
 
 /* Pied de page */

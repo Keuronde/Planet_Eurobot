@@ -24,18 +24,22 @@ function prettyDate(time){
     var diff = (((new Date()).getTime() - date.getTime()) / 1000);
     var day_diff = Math.floor(diff / 86400);
             
-    if ( isNaN(day_diff) || day_diff < 0 || day_diff >= 31 )
+    if ( isNaN(day_diff) || day_diff < 0  )
         return;
             
     return day_diff == 0 && (
-            diff < 60 && "just now" ||
-            diff < 120 && "1 minute ago" ||
-            diff < 3600 && Math.floor( diff / 60 ) + " minutes ago" ||
-            diff < 7200 && "1 hour ago" ||
-            diff < 86400 && Math.floor( diff / 3600 ) + " hours ago") ||
-        day_diff == 1 && "Yesterday" ||
-        day_diff < 7 && day_diff + " days ago" ||
-        day_diff < 31 && Math.ceil( day_diff / 7 ) + " weeks ago";
+            diff < 60 && "maintenant" ||
+            diff < 120 && "il y a 1 minute" ||
+            diff < 3600 && "il y a " + Math.floor( diff / 60 ) + " minutes" ||
+            diff < 7200 && "il y a 1 heure" ||
+            diff < 86400 && "il y a " + Math.floor( diff / 3600 ) + " heures") ||
+        day_diff == 1 && "hier" ||
+        day_diff < 7 && "il y a " + day_diff + " jours" ||
+        day_diff < 14 && "la semaine dernière" ||
+        day_diff < 28 && "il y a " + Math.ceil( day_diff / 7 ) + " semaines" ||
+        day_diff < 61 && "le mois dernier" ||
+        day_diff < 365 && "il y a " + Math.ceil( day_diff / 30 ) + " mois" ||
+        "il y a plus d'un an";
 }
 
 function showHideContent() {

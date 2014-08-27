@@ -43,7 +43,7 @@ header('Content-type: text/html; charset=UTF-8');
                         </h2>
                         <p class="article-info">
                             
-                            <?php echo ($item->get_author()? $item->get_author()->get_name() : 'Anonymous'); ?>,
+                            <span class="author"><?php echo ($item->get_author()? $item->get_author()->get_name() : 'Anonymous'); ?></span>,
                             <?php 
                             $ago = time() - $item->get_date('U');
                             //echo '<span title="'.Duration::toString($ago).' ago" class="date">'.date('d/m/Y', $item->get_date('U')).'</span>';
@@ -52,7 +52,7 @@ header('Content-type: text/html; charset=UTF-8');
                             
                             |
                             
-                            Source: <?php
+                            Source&nbsp;: <?php
                             $feed = $item->get_feed();
                             echo '<a href="'.$feed->getWebsite().'" class="source">'.$feed->getName().'</a>';
                             ?>

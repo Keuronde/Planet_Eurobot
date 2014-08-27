@@ -254,6 +254,10 @@ div.article *{
   height: auto;
 }
 
+div.article span.author{
+  text-transform: capitalize;
+}
+
 /* Pied de page */
 #footer{
   text-align: center;

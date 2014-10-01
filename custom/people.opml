@@ -24,21 +24,20 @@
 <outline text="IGrebot" htmlUrl="http://igrebot.fr" xmlUrl="http://igrebot.fr/index.php/fr/igreblog-fr?format=feed&amp;type=rss"/>
 <outline text="Robotronik" htmlUrl="http://robotronik.org" xmlUrl="http://robotronik.org/index.php?feed/rss2"/>
 <outline text="Reb'UT" htmlUrl="http://www.rebut-robot.fr" xmlUrl="http://www.rebut-robot.fr/?feed=rss2"/>
-<outline text="BH Team" htmlUrl="http://www.bhteam.org" xmlUrl="https://sites.google.com/a/bhteam.org/www/News/posts.xml"/>
+<outline text="BH Team" htmlUrl="http://www.bhteam.org" xmlUrl=""/>
 <outline text="WheelsTeam " htmlUrl="http://wheelsteam.wils.fr" xmlUrl="http://wheelsteam.wils.fr/flux_rss.xml"/>
 <outline text="Alpobot " htmlUrl="http://www.alpobot.fr" xmlUrl="http://www.alpobot.fr/?feed=rss2"/>
 <outline text="CRLG" htmlUrl="http://crlg-asso.blogspot.com/" xmlUrl="http://crlg-asso.blogspot.com/feeds/posts/default"/>
 <outline text="7Robot" htmlUrl="http://www.bde.enseeiht.fr/clubs/robot" xmlUrl="http://www.bde.enseeiht.fr/clubs/robot/rss.xml"/>
 <outline text="EPF-Robotic" htmlUrl="http://epf-robotic.epf.fr" xmlUrl="http://epf-robotic.epf.fr/feed/"/>
 <outline text="INSA Toulouse" htmlUrl="http://etud.insa-toulouse.fr/~club_robot" xmlUrl="http://etud.insa-toulouse.fr/~club_robot/?q=rss.xml"/>
-<outline text="AIR Isep" htmlUrl="http://airisep.fr/wp" xmlUrl="http://airisep.fr/wp/feed/"/>
+<outline text="AIR Isep" htmlUrl="http://airisep.fr/wp" xmlUrl=""/>
 <outline text="BrickStory" htmlUrl="http://brickstory-asso.blogspot.com/" xmlUrl="http://brickstory-asso.blogspot.com/feeds/posts/default"/>
-<outline text="TELECOM Bretagne" htmlUrl="http://em6.clubs.resel.fr" xmlUrl="http://em6.clubs.resel.fr/dotclear/index.php?feed/atom"/>
 <outline text="CTronic" htmlUrl="http://polytech.univ-bpclermont.fr/custronic/" xmlUrl="http://polytech.univ-bpclermont.fr/custronic/news.xml"/>
 <outline text="Club Robotique 31" htmlUrl="http://clubrobotique31.free.fr" xmlUrl="http://clubrobotique31.free.fr/?feed=rss2"/>
 <outline text="Robot-X" htmlUrl="http://www.robot-x.org" xmlUrl="http://www.robot-x.org/?q=rss.xml"/>
 <outline text="Sussus Invaders" htmlUrl="http://sussusinvaders.fr/" xmlUrl="http://pebdev.eu/www3/feed/rss"/>
-<outline text="Coffee-Machine" htmlUrl="http://www.coffee-machine.fr" xmlUrl="http://www.coffee-machine.fr/?feed=rss2"/>
+<outline text="Coffee-Machine" htmlUrl="http://www.coffee-machine.fr" xmlUrl=""/>
 <outline text="PM-Robotix" htmlUrl="http://sites.google.com/site/pmrobotix/" xmlUrl="http://sites.google.com/site/pmrobotix/News/posts.xml"/>
 <outline text="CYBERNETIQUE en NORD" htmlUrl="http://cybernetiqueennord.blogspot.com/" xmlUrl="http://cybernetiqueennord.blogspot.com/feeds/posts/default"/>
 <outline text="ISTY2000" htmlUrl="http://isty2000.wordpress.com" xmlUrl="http://isty2000.wordpress.com/feed/"/>

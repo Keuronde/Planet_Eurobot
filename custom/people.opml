@@ -45,5 +45,14 @@
 <outline text="Pla-Sci" htmlUrl="http://www.planete-sciences.org/blogs/pla-sci" xmlUrl="http://www.planete-sciences.org/blogs/pla-sci/tag/coupe-de-france-de-robotique/feed/"/>
 <outline text="GobGob Technology" htmlUrl="http://gobgob-technology.fr/" xmlUrl="http://gobgob-technology.fr/feed.xml"/>
 <outline text="autonomouS Multi Applications Robot Team (S.M.A.R.T.)" htmlUrl="http://smartrobotics.org/blog" xmlUrl="http://smartrobotics.org/blog/fr/feed/"/>
+
+<outline text="R2T2" htmlUrl="http://blogs.univ-avignon.fr/r2t2/author/assor2t2/" xmlUrl="http://blogs.univ-avignon.fr/r2t2/comments/feed/"/>
+<outline text="Nova Robotics" htmlUrl="http://www.nova-robotics.fr/" xmlUrl="http://www.nova-robotics.fr/feed.php?atom"/>
+<outline text="ClubElek" htmlUrl="http://clubelek.insa-lyon.fr/wordpress/2014/10/30/theme-coupe-de-france-2015-robomovies/" xmlUrl="http://clubelek.insa-lyon.fr/wordpress/feed/"/>
+<outline text="Projet&amp;Tech'" htmlUrl="http://robot.telecom-st-etienne.fr/" xmlUrl="http://robot.telecom-st-etienne.fr/?feed=rss2"/>
+<outline text="HEI Robot" htmlUrl="http://hei-robot.e-monsite.com/" xmlUrl="http://hei-robot.e-monsite.com/blog/do/rss.xml"/>
+<outline text="Robotech Montpellier" htmlUrl="http://www.robotech.univ-montp2.fr/" xmlUrl="http://www.robotech.univ-montp2.fr/feed/"/>
+
+
 </body>
 </opml>

@@ -49,7 +49,7 @@ Cache::setStore(dirname(__FILE__).'/'.$conf['cachedir']);
 if (!isset($_GET['type']) || 
     !is_file(dirname(__FILE__).'/custom/views/'.$_GET['type'].'/index.tpl.php') || 
     strpos($_GET['type'], DIRECTORY_SEPARATOR)){
-    $_GET['type'] = 'default';
+    $_GET['type'] = 'Portail';
 }
 
 if (!OutputCache::Start($_GET['type'], $cache_key, $cache_duration)) {

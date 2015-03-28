@@ -13,7 +13,6 @@
 <outline text="Bulbot" htmlUrl="http://bulbot.ulb.ac.be" xmlUrl="http://bulbot.ulb.ac.be/index.php?format=feed&amp;type=rss"/>
 <outline text="ESEO" htmlUrl="http://robot-eseo.fr" xmlUrl="http://robot-eseo.fr/feed/"/>
 <outline text="TDS-Team" htmlUrl="http://tdsteam.wordpress.com" xmlUrl="http://tdsteam.wordpress.com/feed/"/>
-<outline text="Geonobot" htmlUrl="http://geonobotblog.free.fr" xmlUrl="http://geonobotblog.free.fr/rss.php"/>
 <outline text="Valrobotik" htmlUrl="http://valrobotik.blogspot.com" xmlUrl="http://valrobotik.blogspot.com/feeds/posts/default"/>
 <outline text="Karibous" htmlUrl="http://karibous.blogspot.com" xmlUrl="http://feeds.feedburner.com/EquipelesKaribous"/>
 <outline text="Eceborg" htmlUrl="http://eceborg.fr" xmlUrl="http://feeds.feedburner.com/eceborg"/>
@@ -33,7 +32,6 @@
 <outline text="INSA Toulouse" htmlUrl="http://etud.insa-toulouse.fr/~club_robot" xmlUrl="http://etud.insa-toulouse.fr/~club_robot/?q=rss.xml"/>
 <outline text="AIR Isep" htmlUrl="http://airisep.fr/wp" xmlUrl=""/>
 <outline text="BrickStory" htmlUrl="http://brickstory-asso.blogspot.com/" xmlUrl="http://brickstory-asso.blogspot.com/feeds/posts/default"/>
-<outline text="CTronic" htmlUrl="http://polytech.univ-bpclermont.fr/custronic/" xmlUrl="http://polytech.univ-bpclermont.fr/custronic/news.xml"/>
 <outline text="Club Robotique 31" htmlUrl="http://clubrobotique31.free.fr" xmlUrl="http://clubrobotique31.free.fr/?feed=rss2"/>
 <outline text="Robot-X" htmlUrl="http://www.robot-x.org" xmlUrl="http://www.robot-x.org/?q=rss.xml"/>
 <outline text="Sussus Invaders" htmlUrl="http://sussusinvaders.fr/" xmlUrl="http://pebdev.eu/www3/feed/rss"/>
@@ -43,7 +41,6 @@
 <outline text="ISTY2000" htmlUrl="http://isty2000.wordpress.com" xmlUrl="http://isty2000.wordpress.com/feed/"/>
 <outline text="CSARR" htmlUrl="http://csarr.fr/" xmlUrl="http://csarr.fr/?format=feed&amp;type=rss"/>
 <outline text="Pla-Sci" htmlUrl="http://www.planete-sciences.org/blogs/pla-sci" xmlUrl="http://www.planete-sciences.org/blogs/pla-sci/tag/coupe-de-france-de-robotique/feed/"/>
-<outline text="GobGob Technology" htmlUrl="http://gobgob-technology.fr/" xmlUrl="http://gobgob-technology.fr/feed.xml"/>
 <outline text="autonomouS Multi Applications Robot Team (S.M.A.R.T.)" htmlUrl="http://smartrobotics.org/blog" xmlUrl="http://smartrobotics.org/blog/fr/feed/"/>
 
 <outline text="R2T2" htmlUrl="http://blogs.univ-avignon.fr/r2t2/author/assor2t2/" xmlUrl="http://blogs.univ-avignon.fr/r2t2/comments/feed/"/>

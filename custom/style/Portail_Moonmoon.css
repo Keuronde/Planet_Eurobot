@@ -271,7 +271,7 @@ div.article span.author{
 }
 
 /* Très petits écran */
-@media screen and (max-width: 46em) {
+@media screen and (max-width: 46em), (max-width:640px) {
   /* Le sommaire s'empile verticalement */
 	#sommaire ul {
 		text-align:left;
@@ -288,7 +288,7 @@ div.article span.author{
 	  margin: 1em 0;
 	}
 }
-@media screen and (max-width: 36em) {
+@media screen and (max-width: 36em),(max-width:640px) {
 	#sidebar{
 	  display:none;
 	}

@@ -6,7 +6,7 @@
 <dateModified>2014-08-05T22:53:16+02:00</dateModified>
 </head>
 <body>
-<outline text="Cubot" htmlUrl="http://cubot.mecatronautes.fr" xmlUrl="http://cubot.mecatronautes.fr/?feed=rss2"/>
+<outline text="Cubot" htmlUrl="http://cubot.fr" xmlUrl="http://cubot.fr/?feed=rss2"/>
 <outline text="APBTeam" htmlUrl="http://apbteam.org" xmlUrl="http://apbteam.org/blog?format=rss"/>
 <outline text="OMyBot" htmlUrl="http://omybot.com" xmlUrl="http://omybot.com/blog/?feed=rss2"/>
 <outline text="Poivron" htmlUrl="http://www.poivron-robotique.fr" xmlUrl="http://www.poivron-robotique.fr/spip.php?page=backend-breves"/>

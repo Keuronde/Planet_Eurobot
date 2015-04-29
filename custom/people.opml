@@ -39,7 +39,7 @@
 <outline text="PM-Robotix" htmlUrl="http://sites.google.com/site/pmrobotix/" xmlUrl="http://sites.google.com/site/pmrobotix/News/posts.xml"/>
 <outline text="CYBERNETIQUE en NORD" htmlUrl="http://cybernetiqueennord.blogspot.com/" xmlUrl="http://cybernetiqueennord.blogspot.com/feeds/posts/default"/>
 <outline text="ISTY2000" htmlUrl="http://isty2000.wordpress.com" xmlUrl="http://isty2000.wordpress.com/feed/"/>
-<outline text="CSARR" htmlUrl="http://csarr.fr/" xmlUrl="http://csarr.fr/?format=feed&amp;type=rss"/>
+<outline text="CSARR" htmlUrl="http://csarr.fr/" xmlUrl="http://csarr.fr/feed.xml"/>
 <outline text="Pla-Sci" htmlUrl="http://www.planete-sciences.org/blogs/pla-sci" xmlUrl="http://www.planete-sciences.org/blogs/pla-sci/tag/coupe-de-france-de-robotique/feed/"/>
 <outline text="autonomouS Multi Applications Robot Team (S.M.A.R.T.)" htmlUrl="http://smartrobotics.org/blog" xmlUrl="http://smartrobotics.org/blog/fr/feed/"/>
 

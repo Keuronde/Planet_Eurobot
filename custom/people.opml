@@ -49,6 +49,10 @@
 <outline text="Projet&amp;Tech'" htmlUrl="http://robot.telecom-st-etienne.fr/" xmlUrl="http://robot.telecom-st-etienne.fr/?feed=rss2"/>
 <outline text="HEI Robot" htmlUrl="http://hei-robot.e-monsite.com/" xmlUrl="http://hei-robot.e-monsite.com/blog/do/rss.xml"/>
 <outline text="Robotech Montpellier" htmlUrl="http://www.robotech.univ-montp2.fr/" xmlUrl="http://www.robotech.univ-montp2.fr/feed/"/>
+<outline text="Geonobot" htmlUrl="http://geonobotblog.free.fr/" xmlUrl="http://geonobotblog.free.fr/rss.php"/>
+<outline text="CVRA" htmlUrl="http://www.cvra.ch/" xmlUrl="http://www.cvra.ch/atom.xml"/>
+<outline text="Azbot" htmlUrl="http://azbot-fr.blogspot.fr/" xmlUrl="http://azbot-fr.blogspot.com/feeds/posts/default"/>
+<outline text="Trognon" htmlUrl="https://teamtrognon.wordpress.com/" xmlUrl="https://teamtrognon.wordpress.com/feed/"/>
 
 
 </body>
